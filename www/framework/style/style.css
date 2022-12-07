@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+/*
+	font-family: 'Fragment Mono', monospace;
+*/
+
+
+:root {
+   --preto: #0a0909; /* ff0000 6B0103 A30006 F03C02 */ 
+   --branco: #ffffff;
+   --cinza: #7472725c;
+
+}
+
+* {
+	background-color: var(--cinza);
+	
+}
+
+.bg-transparent  {
+  background-color: transparent !important;
+}
+
+html {
+	font-family: 'Fragment Mono', monospace;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+header, footer {
+	width: auto;
+	background: rgba(80,80,80,0.2);
+	line-height: 3em;
+}
+
+header {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 11 0px;
+}
+
+footer {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 50px;
+}
+
+header h1, footer h1 {
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+article {
+	margin-top: 10px; 
+	width: 40%;
+	border: 1px dashed var(--vermelho);
+	height: 400px;
+	margin-left: 5%;
+	position: relative;
+	float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bgBranco	{background-color: var(--branco);}
+.bgpreto {background-color: var(--preto);}
+.bgPreto	{background-color: #000000;}
+.bgcinza{background-color: var(--cinza);}
+
+
+.mt-05 		{margin-top: 5px;}
+.mt-10 		{margin-top: 10px;}
+.mt-15 		{margin-top: 15px;}
+
+.mb-05 		{margin-bottom: 5px;}
+.mb-10 		{margin-bottom: 10px;}
+.mb-15 		{margin-bottom: 15px;}
+
+.pd-05 		{padding: 5px;}
+.pd-10 		{padding: 10px;}
+.pd-15 		{padding: 15px;}
+
+.txtBranco   {color: #ffffff;} 
+.txtPreto	 {color: #000000;}
+
+.borda-0   {border: none;}
+.borda-1   {border: solid 1px;}
+.borda-2   {border: solid 2px;}
+.borda-3   {border: solid 3px;}
+.borda-r0  {border-radius: 0px;}
+.borda-r5  {border-radius: 5px;}
+.borda-r10 {border-radius: 10px;}
+
+.bordaBranco   {border-color: var(--branco);} 
+.bordaAmarelo  {border-color: var(--amarelo);}
+.bordaAzul     {border-color: var(--azul);}
+.bordaVermelho {border-color: var(--vermelho);}
+.bordaVerde    {border-color: var(--verde);}
+.bordaPreto	   {border-color: #000000;}
+
+.img{
+	width:625px;
+	height: 400px ;
+
+}
+
+
