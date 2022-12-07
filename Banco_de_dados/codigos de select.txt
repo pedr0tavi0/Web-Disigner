@@ -1,0 +1,96 @@
+
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * from funcionario
+SELECT * from funcionario WHERE idFuncionario=222
+SELECT * from departamento WHERE idDepartamento=4
+SELECT * from departamento WHERE idDepartamento=4
+SELECT * from departamento WHERE idDepartamento=4
+SELECT * from funcionario WHERE idDepartamento=4 and nome='Zacarias'
+SELECT * from funcionario WHERE idDepartamento=4 or nome='zacarias'
+SELECT * from funcionario WHERE idDepartamento=4 or nome='Zacarias'
+SELECT nome,sobrenome from funcionario WHERE idDepartamento=4
+SELECT * from departamento WHERE dnome='ti' or dnome='financeiro'
+SELECT * from departamento WHERE not dnome='juridico'
+SELECT* from departamento where orcamento<=50000
+SELECT * from funcionario WHERE Sobrenome LIKE '%a'
+SELECT * from funcionario WHERE Sobrenome LIKE '%silva%'
+select *FROM funcionario where nome IN ('carol','joaquim','eric')
+select COUNT(idfuncionario) from funcionario
+select min(orcamento)from departamento
+select AVG(orcamento)from departamento
+select AVG(orcamento)from departamento
+select SUM(orcamento * 0.25) as acrescimo from departamento
+select * from departamento ORDER BY orcamento
+select * from departamento ORDER BY orcamento DESC
+select nome,idDepartamento from funcionario ORDER BY nome
+SELECT * FROM `funcionario`
+select nome,idDepartamento from funcionario ORDER BY nome, iddepartamento
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento ORDER by nome
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento ORDER by nome,sobrenome
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento ORDER by idfuncionario
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento
+select COUNT(idfuncionario) from funcionario
+select dnome,idfuncionario,nome,sobrenome from funcionario,departamento
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+select dnome,idfuncionario,nome from funcionario,departamento
+select dnome,idfuncionario,nome from funcionario f,departamento d where f.iddepartamento=d.iddepartamento
+select dnome,idfuncionario,nome from funcionario f,departamento d where f.iddepartamento=d.iddepartamento
+select dnome,idfuncionario,nome,.f.iddepartamento from funcionario f,departamento d where f.iddepartamento=d.iddepartamento
+select dnome,idfuncionario,nome,.f.iddepartamento from funcionario f,departamento d where f.iddepartamento=d.iddepartamento order by nome
+SELECT sobrenome from funcionario
+SELECT dnome from departamento where orcamento> 15000
+select * from funcionario where sobrenome='coelho' OR sobrenome='pereira'
+SELECT * FROM `funcionario`
+SELECT * FROM `funcionario`
+select * from funcionario where iddepartamento=1
+select nome from funcionario where iddepartamento=1 and iddepartamento=2
+select nome from funcionario where iddepartamento=1
+select nome from funcionario where iddepartamento=1 and iddepartamento=2
+select nome from funcionario where iddepartamento=1 or iddepartamento=2
+select nome from funcionario where sobrenome like '%eira'
+select nome from funcionario where sobrenome like 'eira%'
+select nome from funcionario where sobrenome like '%a'
+select * from funcionario where sobrenome like '%eira'
+SELECT * FROM `departamento`
+SELECT * FROM `departamento`
+insert into departamento VALUES(6,'compras',100000)
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+insert into funcionario VALUES(788,'Juliano',' Souza',6)
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `departamento`
+UPDATE funcionario set iddepartamento=4 where iddepartamento=2
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+UPDATE funcionario set iddepartamento=4 where iddepartamento=2
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+SELECT * FROM `funcionario`
+UPDATE funcionario set iddepartamento=2 where iddepartamento=4
+SELECT * FROM `funcionario`
+SELECT * FROM `departamento`
+DELETE from departamento where iddepartamento=4
+SELECT * FROM `departamento`
+INSERT into funcionario values (778,'Paulo','Aguiar',2)
+SELECT * FROM `funcionario`
+SELECT dnome nome from funcionario,departamento order by nome
+SELECT dnome, nome from funcionario,departamento order by nome
+SELECT dnome nome from funcionario f,departamento d where f.iddepartamento=d.iddepartamento order by nome
+SELECT dnome, nome from funcionario f,departamento d where f.iddepartamento=d.iddepartamento order by nome
+SELECT dnome,sobrenome, orcamento from funcionario f,departamento d where f.iddepartamento=d.iddepartamento order by nome
